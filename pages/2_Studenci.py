@@ -91,11 +91,7 @@ pr_cy2 = ['Ogółem','Nauczyciele akademiccy','Profesorowie','Adiunkci','Asysten
         
         
         
-sekcja = st.sidebar.radio(
-    'Wybierz sekcję:',
-    ('Strona główna','Studenci','Pracownicy','Badania naukowe')
- )
-#st.sidebar.image('', use_column_width=True)
+
 
 streamlit_style = """
 			<style>
