@@ -267,10 +267,10 @@ with d1:
 	lg1 = lg1.reset_index()
 	lg1['kolor']=' '
 	for j,i in enumerate(lg1['Wydział']):
-    	if i in list(kolwyd.keys()):
-        		lg1['kolor'][j] = kolwyd[i]
-    	else:
-        		lg1['kolor'][j] = 'rgb(0,70,180)'
+		if i in list(kolwyd.keys()):
+				lg1['kolor'][j] = kolwyd[i]
+		else:
+				lg1['kolor'][j] = 'rgb(0,70,180)'
 	barwa5 = lg1['kolor'][::-1]
 	fig = go.Figure()      
     
