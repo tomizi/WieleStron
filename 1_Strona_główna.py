@@ -64,6 +64,17 @@ st.subheader('Uniwersytet podzielony jest na wydziały. Każdy wydział ma unika
 st.image('https://www.umk.pl/siw/galeria_inspiracje/UMKins8.jpg')
 
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            [data-testid="stDecoration"]{background-image: linear-gradient(90deg,#FFCD00 ,#0050AA );height: 0.25rem;}
+            [class="stActionButton"] {visibility: hidden;}
+            
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 
 
