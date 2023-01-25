@@ -5,7 +5,7 @@ import streamlit as st
 st.title('Strona główna')
 st.sidebar.success("Wybierz stronę")
 
-st.set_page_config(page_title='UMK w liczbach', page_icon = ':page_facing_up:',initial_sidebar_state='expanded',layout='wide')
+st.set_page_config(page_title='UMK w liczbach', page_icon = ':page_facing_up:',layout='wide')
 
 
 #st.sidebar.success("Wybierz stronę")
