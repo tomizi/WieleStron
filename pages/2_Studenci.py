@@ -139,7 +139,24 @@ color: rgb(255,255,255);}
 </style>
 """,
     unsafe_allow_html=True)
-
+st.markdown(
+        f"""
+<style>
+    .reportview-container .main .block-container{{
+        max-width: {max_width}px;
+        padding-top: {padding_top}rem;
+        padding-right: {padding_right}rem;
+        padding-left: {padding_left}rem;
+        padding-bottom: {padding_bottom}rem;
+    }}
+    .reportview-container .main {{
+        color: {COLOR};
+        background-color: {BACKGROUND_COLOR};
+    }}
+</style>
+""",
+        unsafe_allow_html=True,
+    )
 
 new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Studenci</p>'
 st.markdown(new_title, unsafe_allow_html=True)
