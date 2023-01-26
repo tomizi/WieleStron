@@ -138,15 +138,16 @@ color: rgb(255,255,255);}
 </style>
 """,
     unsafe_allow_html=True)
-st.markdown(
+def _max_width_():
+    max_width_str = f"max-width: 2000px;"
+    st.markdown(
         f"""
-<style>
+    <style>
     .reportview-container .main .block-container{{
-        max-width: 2ch;
-        padding: 100px 50px 30px 0;
+        {max_width_str}
     }}
-</style>
-""",
+    </style>    
+    """,
         unsafe_allow_html=True,
     )
 
