@@ -115,7 +115,7 @@ st.markdown(
 background-size:400px, 400px;
 background-position: 1150px 100px;
 background-repeat: no-repeat;
-background-attachment: local;}
+background-attachment: fixed;}
 [data-testid="stHeader"]{background-color: rgba(0,0,0,0);}
 [class="css-1bh6xo1 e1fqkh3o2"]{
 background-color: #0050AA;}
