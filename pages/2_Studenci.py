@@ -138,19 +138,17 @@ color: rgb(255,255,255);}
 </style>
 """,
     unsafe_allow_html=True)
-def _max_width_():
-    max_width_str = f"max-width: 2000px;"
-    st.markdown(
-        f"""
-    <style>
-    .reportview-container .main .block-container{{
-        {max_width_str}
-    }}
-    </style>    
-    """,
-        unsafe_allow_html=True,
-    )
-_max_width_()
+max_width_str = f"max-width: 2000px;"
+st.markdown(
+f"""
+<style>
+.reportview-container .main .block-container{{
+{max_width_str}
+}}
+</style>    
+""",
+unsafe_allow_html=True,
+)
 new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Studenci</p>'
 st.markdown(new_title, unsafe_allow_html=True)
 st.markdown('---')
