@@ -143,15 +143,8 @@ st.markdown(
         f"""
 <style>
     .reportview-container .main .block-container{{
-        max-width: {max_width}px;
-        padding-top: {padding_top}rem;
-        padding-right: {padding_right}rem;
-        padding-left: {padding_left}rem;
-        padding-bottom: {padding_bottom}rem;
-    }}
-    .reportview-container .main {{
-        color: {COLOR};
-        background-color: {BACKGROUND_COLOR};
+        max-width: 1000px;
+        padding: 10px 50px 30px 0;
     }}
 </style>
 """,
