@@ -111,7 +111,6 @@ st.markdown(streamlit_style, unsafe_allow_html=True)
 st.markdown(
     """
 <style>
-size: auto;
 [data-testid="stAppViewContainer"] > .main {background-image: url("https://login.umk.pl/themes/umk/images/logo-umk.png");
 background-size:400px, 400px;
 background-position: 1150px 100px;
